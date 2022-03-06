@@ -13,10 +13,10 @@ const Dashboard = () => {
   const [width, setWidth] = useState('');
   useEffect(() => {
     const widthSize = () => {
-      setWidth('40');
+      setWidth('65');
     };
     widthSize();
-  }, [width]);
+  });
 
   const meter = {
     width: width + '%',
@@ -73,7 +73,7 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="mt-10">
-          <h1 className="text-4xl text-gray-400 font-bold ">
+          <h1 className="text-3xl text-gray-400 font-bold ">
             Watch your plans
           </h1>
           <p className="text-gray-400 text-md leading-10 font-extralight">
@@ -88,9 +88,9 @@ const Dashboard = () => {
                 >
                   <Piggybank />
                 </div>
-                <p className="text-lg font-light">Saving for Rainy days</p>
+                <p className="text-md font-light">Saving for rainy days</p>
               </div>
-              <h1 className="mt-5 font-extrabold text-3xl">N400.00</h1>
+              <h1 className="mt-5 font-extrabold text-2xl">N400.00</h1>
               <div className="w-full bg-gray-200 h-1 mt-5">
                 <div style={meter} className="h-1"></div>
               </div>
@@ -103,9 +103,9 @@ const Dashboard = () => {
                 >
                   <Piggybank />
                 </div>
-                <p className="text-lg font-light">Saving for Rainy days</p>
+                <p className="text-md font-light">Saving for rainy days</p>
               </div>
-              <h1 className="mt-5 font-extrabold text-3xl">N400.00</h1>
+              <h1 className="mt-5 font-extrabold text-2xl">N400.00</h1>
               <div className="w-full bg-gray-200 h-1 mt-5">
                 <div style={meter} className="h-1"></div>
               </div>
@@ -118,9 +118,9 @@ const Dashboard = () => {
                 >
                   <Piggybank />
                 </div>
-                <p className="text-lg font-light">Saving for Rainy days</p>
+                <p className="text-md font-light">Saving for rainy days</p>
               </div>
-              <h1 className="mt-5 font-extrabold text-3xl">N400.00</h1>
+              <h1 className="mt-5 font-extrabold text-2xl">N400.00</h1>
               <div className="w-full bg-gray-200 h-1 mt-5">
                 <div style={meter} className="h-1"></div>
               </div>

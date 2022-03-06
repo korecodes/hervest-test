@@ -5,7 +5,7 @@ import Dashboard from '../pages/dashboard';
 const index = () => {
   return (
     <>
-      <div className="flex h-screen">
+      <div className="flex h-screen max-w-screen-xl container">
         <aside style={{ width: '20vw' }} className="fixed">
           <Sidebar />
         </aside>
