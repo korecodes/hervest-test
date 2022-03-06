@@ -1,12 +1,9 @@
-
-import './App.css';
+import Index from './pages/index';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="text-5xl">FINESSE</h1>
-      </header>
+      <Index />
     </div>
   );
 }
