@@ -5,9 +5,13 @@ import Dashboard from '../pages/dashboard';
 const index = () => {
   return (
     <>
-      <div className="flex">
-        <Sidebar />
-        <Dashboard />
+      <div className="flex h-screen">
+        <aside style={{ width: '20vw' }} className="fixed">
+          <Sidebar />
+        </aside>
+        <main style={{ width: '80vw' }} className="absolute right-0 h-screen">
+          <Dashboard />
+        </main>
       </div>
     </>
   );

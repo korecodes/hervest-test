@@ -17,7 +17,7 @@ import {
 const Sidebar = () => {
   return (
     <>
-      <div className="w-1/5 h-full">
+      <div className="bg-white">
         <div className="pt-10 px-7">
           <div className="">
             <Logo />

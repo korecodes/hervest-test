@@ -24,10 +24,7 @@ const Dashboard = () => {
   };
   return (
     <>
-      <div
-        style={{ backgroundColor: '#FAFAFA' }}
-        className="h-screen w-4/5 px-10"
-      >
+      <div style={{ backgroundColor: '#FAFAFA' }} className="px-10">
         <div className="pt-10 flex items-center space-x-3">
           <div className="bg-gray-400 w-14 h-14 rounded-full"></div>
           <div className="flex flex-col">
@@ -48,7 +45,7 @@ const Dashboard = () => {
           <div className="absolute bottom-0 right-48">
             <Stripe />
           </div>
-          <div className="absolute top-1/4 px-10 grid grid-cols-4 mx-auto w-full">
+          <div className="absolute top-1/4 px-12 grid grid-cols-4 space-x-16 mx-auto w-full">
             <div className="grid-cols-1 flex flex-col items-center">
               <h1 className="text-white font-extralight">Available Balance</h1>
               <p className="text-white text-lg font-extrabold mt-2">
@@ -56,21 +53,21 @@ const Dashboard = () => {
               </p>
             </div>
             <div className="grid-cols-1  flex flex-col items-center">
-              <h1 className="text-white font-extralight">Available Balance</h1>
+              <h1 className="text-white font-extralight">Impact Investments</h1>
               <p className="text-white text-lg font-extrabold mt-2">
-                ₦1,063,345.04
+                ₦1,007,345.04
               </p>
             </div>
             <div className="grid-cols-1  flex flex-col items-center">
-              <h1 className="text-white font-extralight">Available Balance</h1>
+              <h1 className="text-white font-extralight">Total Savings</h1>
               <p className="text-white text-lg font-extrabold mt-2">
-                ₦1,063,345.04
+                ₦2,007,345.04
               </p>
             </div>
             <div className="grid-cols-1  flex flex-col items-center">
-              <h1 className="text-white font-extralight">Available Balance</h1>
+              <h1 className="text-white font-extralight">Total Returns</h1>
               <p className="text-white text-lg font-extrabold mt-2">
-                ₦1,063,345.04
+                ₦56,000.00
               </p>
             </div>
           </div>
